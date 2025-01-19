@@ -1,0 +1,92 @@
+{
+    "classes": [
+        {
+            "className": "BooksModel",
+            "lineNumber": 22,
+            "object": true,
+            "qualifiedClassName": "BooksModel",
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "title",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "authorId",
+                            "type": "int"
+                        },
+                        {
+                            "name": "categoryId",
+                            "type": "int"
+                        },
+                        {
+                            "name": "publicationYear",
+                            "type": "int"
+                        },
+                        {
+                            "name": "availableCopies",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "addBook",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "id",
+                            "type": "int"
+                        },
+                        {
+                            "name": "title",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "authorId",
+                            "type": "int"
+                        },
+                        {
+                            "name": "categoryId",
+                            "type": "int"
+                        },
+                        {
+                            "name": "publicationYear",
+                            "type": "int"
+                        },
+                        {
+                            "name": "availableCopies",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "updateBook",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "id",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "removeBook",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractListModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "booksmodel.h",
+    "outputRevision": 68
+}

@@ -1,0 +1,5 @@
+module DatabaseApp
+typeinfo DatabaseApp.qmltypes
+prefer :/qt/qml/DatabaseApp/
+Main 1.0 Main.qml
+

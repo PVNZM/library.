@@ -1,0 +1,84 @@
+{
+    "classes": [
+        {
+            "className": "DataModel",
+            "lineNumber": 18,
+            "methods": [
+                {
+                    "access": "public",
+                    "index": 3,
+                    "name": "loadReaders",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "DataModel",
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "name",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "email",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "registrationDate",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "addReader",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "readerId",
+                            "type": "int"
+                        },
+                        {
+                            "name": "name",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "email",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "registrationDate",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "updateReader",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "readerId",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "removeReader",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractListModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "datamodel.h",
+    "outputRevision": 68
+}

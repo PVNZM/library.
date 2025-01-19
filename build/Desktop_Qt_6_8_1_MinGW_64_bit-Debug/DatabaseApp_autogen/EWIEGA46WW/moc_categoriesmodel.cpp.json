@@ -1,0 +1,74 @@
+{
+    "classes": [
+        {
+            "className": "CategoriesModel",
+            "lineNumber": 17,
+            "methods": [
+                {
+                    "access": "public",
+                    "index": 4,
+                    "name": "loadCategories",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "CategoriesModel",
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "name",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "addCategory",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "id",
+                            "type": "int"
+                        },
+                        {
+                            "name": "name",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "updateCategory",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "id",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "removeCategory",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "name": "roleNames",
+                    "returnType": "QHash<int,QByteArray>"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractListModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "categoriesmodel.h",
+    "outputRevision": 68
+}

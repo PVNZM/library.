@@ -1,0 +1,5 @@
+C:/Users/admin/Documents/untitled7/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/DatabaseApp_autogen/include/../EWIEGA46WW/moc_authorsmodel.cpp.json
+C:/Users/admin/Documents/untitled7/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/DatabaseApp_autogen/include/../EWIEGA46WW/moc_booksmodel.cpp.json
+C:/Users/admin/Documents/untitled7/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/DatabaseApp_autogen/include/../EWIEGA46WW/moc_categoriesmodel.cpp.json
+C:/Users/admin/Documents/untitled7/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/DatabaseApp_autogen/include/../EWIEGA46WW/moc_datamodel.cpp.json
+C:/Users/admin/Documents/untitled7/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/DatabaseApp_autogen/include/../EWIEGA46WW/moc_ordersmodel.cpp.json

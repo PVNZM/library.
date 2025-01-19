@@ -1,0 +1,474 @@
+[
+    {
+        "classes": [
+            {
+                "className": "AuthorsModel",
+                "lineNumber": 13,
+                "methods": [
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "name": "loadAuthors",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "AuthorsModel",
+                "slots": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "name",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "birthDate",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "addAuthor",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "id",
+                                "type": "int"
+                            },
+                            {
+                                "name": "name",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "birthDate",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 1,
+                        "name": "updateAuthor",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "id",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 2,
+                        "name": "removeAuthor",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QAbstractListModel"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "authorsmodel.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "BooksModel",
+                "lineNumber": 22,
+                "object": true,
+                "qualifiedClassName": "BooksModel",
+                "slots": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "title",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "authorId",
+                                "type": "int"
+                            },
+                            {
+                                "name": "categoryId",
+                                "type": "int"
+                            },
+                            {
+                                "name": "publicationYear",
+                                "type": "int"
+                            },
+                            {
+                                "name": "availableCopies",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "addBook",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "id",
+                                "type": "int"
+                            },
+                            {
+                                "name": "title",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "authorId",
+                                "type": "int"
+                            },
+                            {
+                                "name": "categoryId",
+                                "type": "int"
+                            },
+                            {
+                                "name": "publicationYear",
+                                "type": "int"
+                            },
+                            {
+                                "name": "availableCopies",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 1,
+                        "name": "updateBook",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "id",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 2,
+                        "name": "removeBook",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QAbstractListModel"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "booksmodel.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "CategoriesModel",
+                "lineNumber": 17,
+                "methods": [
+                    {
+                        "access": "public",
+                        "index": 4,
+                        "name": "loadCategories",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "CategoriesModel",
+                "slots": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "name",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "addCategory",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "id",
+                                "type": "int"
+                            },
+                            {
+                                "name": "name",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 1,
+                        "name": "updateCategory",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "id",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 2,
+                        "name": "removeCategory",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "name": "roleNames",
+                        "returnType": "QHash<int,QByteArray>"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QAbstractListModel"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "categoriesmodel.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "DataModel",
+                "lineNumber": 18,
+                "methods": [
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "name": "loadReaders",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "DataModel",
+                "slots": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "name",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "email",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "registrationDate",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "addReader",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "readerId",
+                                "type": "int"
+                            },
+                            {
+                                "name": "name",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "email",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "registrationDate",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 1,
+                        "name": "updateReader",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "readerId",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 2,
+                        "name": "removeReader",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QAbstractListModel"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "datamodel.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "OrdersModel",
+                "lineNumber": 20,
+                "methods": [
+                    {
+                        "access": "public",
+                        "index": 8,
+                        "name": "loadOrders",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "OrdersModel",
+                "slots": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "readerId",
+                                "type": "int"
+                            },
+                            {
+                                "name": "bookId",
+                                "type": "int"
+                            },
+                            {
+                                "name": "orderDate",
+                                "type": "QDate"
+                            },
+                            {
+                                "name": "returnDate",
+                                "type": "QDate"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "addOrder",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "orderId",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 1,
+                        "name": "removeOrder",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "orderId",
+                                "type": "int"
+                            },
+                            {
+                                "name": "readerId",
+                                "type": "int"
+                            },
+                            {
+                                "name": "bookId",
+                                "type": "int"
+                            },
+                            {
+                                "name": "orderDate",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "returnDate",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 2,
+                        "name": "updateOrder",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "parent",
+                                "type": "QModelIndex"
+                            }
+                        ],
+                        "index": 3,
+                        "name": "rowCount",
+                        "returnType": "int"
+                    },
+                    {
+                        "access": "public",
+                        "index": 4,
+                        "isCloned": true,
+                        "name": "rowCount",
+                        "returnType": "int"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "QModelIndex"
+                            },
+                            {
+                                "name": "role",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 5,
+                        "name": "data",
+                        "returnType": "QVariant"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "QModelIndex"
+                            }
+                        ],
+                        "index": 6,
+                        "isCloned": true,
+                        "name": "data",
+                        "returnType": "QVariant"
+                    },
+                    {
+                        "access": "public",
+                        "index": 7,
+                        "name": "roleNames",
+                        "returnType": "QHash<int,QByteArray>"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QAbstractListModel"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "ordersmodel.h",
+        "outputRevision": 68
+    }
+]
